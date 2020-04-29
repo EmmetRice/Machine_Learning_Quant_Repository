@@ -1,0 +1,13 @@
+ERROR 1206 LOCK exceeded
+
+SOLUTIOn INCREASE buffer pool size
+
+what size to use? (in G)
+
+SELECT CEILING(Total_InnoDB_Bytes*1.6/POWER(1024,3)) RIBPS FROM
+(SELECT SUM(data_length+index_length) Total_InnoDB_Bytes
+FROM information_schema.tables WHERE engine='InnoDB') A;
+
+SEE:
+https://dba.stackexchange.com/questions/27328/how-large-should-be-mysql-innodb-buffer-pool-size
+https://dba.stackexchange.com/questions/19164/what-to-set-innodb-buffer-pool-and-why/19181#19181

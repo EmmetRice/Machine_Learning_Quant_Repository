@@ -1,0 +1,58 @@
+#we can create a table to hold the NSE bhav copy files:
+
+#the table will need to have columns which map to the file
+
+use nse;
+
+create table cmstaging (
+symbol varchar(256),
+series varchar(256),
+open float,
+high float,
+low float,
+close float,
+last float,
+prevclose float,
+tottrdqty float,
+tottrdval float,
+timestamp date,
+totaltrades float	DEFAULT (''),
+isin varchar(256)	DEFAULT ('')
+);
+#not all files have the totaltrades or isin fields
+
+#create for fo files table
+
+create table fostaging (
+instrument varchar(256),
+symbol varchar(256),
+expiry_dt date,
+strike_pr float,
+option_type varchar(256),
+open float,
+high float,
+low float,
+close float,
+settle_pr float,
+contracts float,
+val_inlakh float,
+open_int float,
+chg_in_oi float,
+timestamp date
+);
+
+
+#Load data infile 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/cm01APR2008bhav.csv'
+#Load data infile 'B:/Work/StudyFolk/Quant ML Trading course/project_files_downloaded_NSE/unzipped/cm05FEB2014bhav.csv/cm05FEB2014bhav.csv'
+Load data infile 'B:/Work/StudyFolk/Quant ML Trading course/project_files_downloaded_NSE/unzipped/cm01APR2008bhav.csv/cm01APR2008bhav.csv'
+into table cmstaging 
+fields terminated by ',' 
+ignore 1 lines
+(symbol,series,open,high,low,close,last,prevclose,tottrdqty,tottrdval,@timestamp,totaltrades,isin)
+SET timestamp = STR_TO_DATE(@timestamp, '%d-%b-%Y')
+;
+
+
+SHOW VARIABLES LIKE "secure_file_priv";
+
+set @@secure_file_priv = '';
