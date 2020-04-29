@@ -1,0 +1,48 @@
+AJUST FOR CORPORATE ACTIONS NOTES - https://studyfolk.com/play/145454
+
+corporate actions (eg, splits and dividends) affect the stock price but are NOT reflected in the price data
+so the price data MUST be adjusted to incorporate these in our quant trading data base
+
+stock splits: company divids its existing shares into multiple shares
+               eg multiplies current number of shares shares, sum total value of shares doesnt change
+
+2 for -1 split doubles num,ber of shares, and each share price halves
+
+why stock split?
+
+1 . if price of each share is too high for investors to buy in bulk (generally shares traded in buckets / lots of 100 shares)
+this lowers the entry bar for investors
+2. increase the liquidity of the stock (how easy it is to buy or sell or the stock)
+    larger numbner of shares available then higher liquidity
+
+Why we need to adjust for stock splits?
+
+there will be a large shock jump in the stock price at the stock split even though the investm,ent value is the same
+it will appear that there is a drop of 50% fopr a 2-for-1 split. ie no market effect on the value, just corp action
+dont want these anomalies to affect our model
+
+we must adjust the previous historical data before the split, and divide it by the stock-split ratio
+so the adjusted closing price will reflect the stocks true performance
+
+
+how to adjust?
+
+stock split annoucement data is available online, usually in following format
+
+
+company - old face value - new facevalue (FV) - split date
+
+
+use ration of old FV : new FV to get the multiplier
+
+what is face value? - the price of the stock as reflected on the share contract (the share you buy)
+                        THIS does NOT reflect the fair / market value at the time of the split
+                        it uses the IPO value of the share when it was first offered as the referrence
+                        the multiplier will still be the same though
+
+
+
+
+
+
+

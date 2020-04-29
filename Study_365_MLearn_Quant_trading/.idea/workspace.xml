@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7f05520a-fd28-4b90-bac5-fb32afba4b72" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZwpNfSYZ6JD49xdqRqMU907W2N" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.test_file">
+    <configuration name="Load_CM_files_NSE_to_MySQL" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Download" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Load_CM_files_NSE_to_MySQL.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test_Run_For_Functions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Download" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Test_Run_For_Functions" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_file" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Download" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/test_file.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="updateSplits" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Download" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/updateSplits.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="update_symbols_NSE" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Download" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/.idea/inspectionProfiles" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/.idea/inspectionProfiles/update_symbols_NSE.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test_file" />
+        <item itemvalue="Python.updateSplits" />
+        <item itemvalue="Python.update_symbols_NSE" />
+        <item itemvalue="Python.Load_CM_files_NSE_to_MySQL" />
+        <item itemvalue="Python.Test_Run_For_Functions" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7f05520a-fd28-4b90-bac5-fb32afba4b72" name="Default Changelist" comment="" />
+      <created>1585759971358</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585759971358</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1029" y="304" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586957479869">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1029" y="304" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585760211394" />
+    <state x="1029" y="304" key="#com.intellij.fileTypes.FileTypeChooser/1920.-150.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1586957479869" />
+    <state x="182" y="253" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1586016762240">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="182" y="253" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/1920.-150.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1586016762240" />
+    <state x="422" y="272" key="FileChooserDialogImpl" timestamp="1586263704704">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="422" y="272" key="FileChooserDialogImpl/1920.-150.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1586263704704" />
+    <state width="945" height="259" key="GridCell.Tab.0.bottom" timestamp="1587060671561">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="945" height="259" key="GridCell.Tab.0.bottom/1920.-150.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1587060671561" />
+    <state width="945" height="259" key="GridCell.Tab.0.center" timestamp="1587060671561">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="945" height="259" key="GridCell.Tab.0.center/1920.-150.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1587060671561" />
+    <state width="945" height="259" key="GridCell.Tab.0.left" timestamp="1587060671561">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="945" height="259" key="GridCell.Tab.0.left/1920.-150.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1587060671561" />
+    <state width="945" height="259" key="GridCell.Tab.0.right" timestamp="1587060671561">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="945" height="259" key="GridCell.Tab.0.right/1920.-150.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1587060671561" />
+    <state width="945" height="334" key="GridCell.Tab.1.bottom" timestamp="1587057958625">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="945" height="334" key="GridCell.Tab.1.bottom/1920.-150.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1587057958625" />
+    <state width="945" height="334" key="GridCell.Tab.1.center" timestamp="1587057958625">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="945" height="334" key="GridCell.Tab.1.center/1920.-150.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1587057958625" />
+    <state width="945" height="334" key="GridCell.Tab.1.left" timestamp="1587057958625">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="945" height="334" key="GridCell.Tab.1.left/1920.-150.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1587057958625" />
+    <state width="945" height="334" key="GridCell.Tab.1.right" timestamp="1587057958625">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="945" height="334" key="GridCell.Tab.1.right/1920.-150.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1587057958625" />
+    <state x="704" y="170" key="SettingsEditor" timestamp="1586113521768">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="704" y="170" key="SettingsEditor/1920.-150.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1586113521768" />
+    <state x="200" y="341" key="com.intellij.ide.util.TipDialog" timestamp="1588163421623">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="200" y="341" key="com.intellij.ide.util.TipDialog/1920.-150.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588163421623" />
+    <state x="2120" y="191" key="com.intellij.ide.util.TipDialog/1920.-150.1920.1040/0.0.1920.1040@1920.-150.1920.1040" timestamp="1586956439847" />
+    <state x="232" y="253" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1586289005968">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="232" y="253" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/1920.-150.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1586289005968" />
+    <state x="1037" y="104" width="764" height="693" key="dock-window-1" timestamp="1587045433927">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1037" y="104" width="764" height="693" key="dock-window-1/1920.-150.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1587045433927" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/Load_CM_files_NSE_to_MySQL.py</url>
+          <line>168</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/Miniconda3/Lib/site-packages/mysql/connector/network.py</url>
+          <line>515</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/updateSplits.py</url>
+          <line>117</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

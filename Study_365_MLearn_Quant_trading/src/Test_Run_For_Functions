@@ -1,0 +1,100 @@
+#testing our functions
+
+# ticker = '^GSPC'
+#
+# start_date = '2015-91-01'
+#
+# end_date = '2016-91-01'
+#
+# freq
+
+ticker = '^BNCC'
+print(ticker)
+ticker = ticker.replace("^","%5E") #converting to how yahoo puts in URL
+print(ticker)
+
+
+from urllib  import parse
+
+
+parsed_url = parse.urlparse ("https://query1.finance.yahoo.com/v7/finance/download/%5EGSPC?period1=1514764800&period2=1546300800&interval=1d&events=history", scheme='', allow_fragments=True)
+#print(parsed_url)
+
+list_parsed_url = list(parsed_url)
+#partsed url in form:
+#scheme, netloc, paths, params, query
+#'https', 'query1.finance.yahoo.com', '/v7/finance/download/%5EGSPC'
+#can see from comment that the path /v7/finance/download/%5EGSPC has the defualt ticker %5EGSP in it
+#so need to remove it for generality
+
+list_parsed_url[2] = '/v7/finance/download/'
+
+print(list_parsed_url)
+
+list_parsed_url[2] = '/v7/finance/download/' + ticker
+
+print(list_parsed_url)
+
+#now extract the query string
+qs = list_parsed_url[4]
+print(qs)
+
+
+
+qs = parse.parse_qs(qs, keep_blank_values=False, strict_parsing=False, encoding='utf-8', errors='replace')
+
+print(qs)
+#this creates a dictionary of each variable in the query string
+qskeys = list(qs.keys())
+print(qskeys)
+print(qskeys[0])
+
+
+newqs = parse.urlencode(qs)
+print(newqs)
+
+qs['interval'] = '1mo'
+newqs2 = parse.urlencode(dict(qs))
+print(newqs2)
+print(type(qs))
+
+qs[str(qskeys[2])] = '1wk'
+newqs4 = parse.urlencode(dict(qs))
+print(newqs4)
+print(type(qs))
+
+print('Values:\n')
+for value in qs:
+        values = qs[value]
+        print(values)
+
+for value in qs:
+    values = str(qs[value])
+    values = values.replace('[', '').replace(']', '').replace('\'', '')
+    print(values)
+    qs[value] = values
+
+print(qs)
+
+newqs = parse.urlencode(qs)
+print(newqs)
+
+new_list_parsed_url = list_parsed_url
+new_list_parsed_url[4] = newqs
+
+print(new_list_parsed_url)
+
+new_url = parse.urlunparse(new_list_parsed_url)
+print(new_url)
+#parse.urlencode() will recombine dictionary into a qs
+#period 1 is the start time in unixtime
+#period2 is the end time
+#interval is the frequency
+#daily = 1d,    monthly = 1mo, 1wk is weekly
+
+#parsed_url = parsed_url.replace( path = '/v7/finance/download/')
+
+#query='period1=1514764800&period2=1546300800&interval=1d&events=history
+
+
+
